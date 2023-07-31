@@ -1,0 +1,31 @@
+public class Main {
+    public static void main(String[] args) {
+        int[] numbers = {1, 2, 3, 4, 5};
+
+        // Using enhanced for loop to iterate over the array
+        for (int num : numbers) {
+            System.out.println(num); // Print each element
+        }
+    }
+}
+//
+The code snippet you provided is an enhanced for loop in Java, also known as a for-each loop. It is used to iterate over elements in an array or any other iterable collection (e.g., ArrayList, List, Set) without the need to explicitly manage the index or iterator.
+
+The syntax for the enhanced for loop is as follows:
+
+java
+Copy code
+for (data_type variable : array_name) {
+    // Code to be executed for each element in the array_name
+}
+Here's what each part means:
+
+data_type: The data type of elements in the array or collection.
+
+variable: A variable of data_type that represents each element in the array or collection during each iteration of the loop.
+
+array_name: The name of the array or collection over which the loop will iterate.
+
+Inside the body of the enhanced for loop, you can write the code that you want to execute for each element in the array or collection. The loop will automatically go through each element one by one and execute the code for each iteration.
+
+Here's an example of how you can use the enhanced for loop to iterate over an array of integers and print each element:
