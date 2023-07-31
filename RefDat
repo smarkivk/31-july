@@ -40,7 +40,7 @@ public class Person {
         Person person2 = new Person("Alice", 30);
 
         // Assigning the reference of person1 to person3
-        Person person3 = person1;
+        Person person3 = person1;// refernce used here 
 
         // Modifying the name of person1 and person3
         person1.setName("Michael");
